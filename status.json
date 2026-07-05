@@ -1,0 +1,20 @@
+{
+  "last_check_et": "2026-07-05 09:00 ET",
+  "indicators": {
+    "t2108_breadth": "watching",
+    "vix": "watching",
+    "selling_climax": "watching",
+    "spx_drawdown": "watching",
+    "ma200": "watching",
+    "rsi_divergence": "watching"
+  },
+  "values": {
+    "spx_last_close": 7483.23,
+    "spx_close_date": "2026-06-30",
+    "vix": 15.81,
+    "rsi14": 59.8,
+    "ma200": 6806,
+    "ref_high": 6978,
+    "ref_high_date": "2026-01-27"
+  }
+}
