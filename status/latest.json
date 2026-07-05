@@ -1,0 +1,12 @@
+{
+  "report_date_et": "2026-07-05",
+  "as_of_trading_session": "2026-07-02",
+  "indicators": {
+    "t2108_breadth": {"status": "Watching", "value": "Not extreme (market at ATH, no source gave exact print)"},
+    "vix": {"status": "Watching", "value": 16.14},
+    "selling_climax": {"status": "Watching", "value": "No abnormal volume/wick observed"},
+    "spx_drawdown": {"status": "Watching", "value": "0% (SPX above the 1/27/26 reference high)"},
+    "ma200": {"status": "Watching", "value": "SPX 7483.24 vs MA200 ~7469.76 (above)"},
+    "rsi_divergence": {"status": "Watching", "value": 59.8}
+  }
+}
