@@ -1,0 +1,14 @@
+{
+  "report_date_et": "2026-07-05",
+  "report_time_et": "02:26",
+  "as_of_trading_session": "2026-07-02",
+  "indicators": {
+    "t2108_breadth": {"status": "watching", "value": "~54%"},
+    "vix": {"status": "watching", "value": "~15.8-16.2"},
+    "selling_climax_volume": {"status": "watching", "value": "SPY vol ~57.5M vs ~53.8M avg"},
+    "spx_drawdown": {"status": "watching", "value": "SPX ~7483 vs ref high 6978 (above, no drawdown)"},
+    "ma200": {"status": "watching", "value": "SPX ~7483 above 200-DMA ~7470"},
+    "rsi_bullish_divergence": {"status": "watching", "value": "RSI ~59.8, no divergence setup"}
+  },
+  "total_triggered": 0
+}
