@@ -1,0 +1,11 @@
+{
+  "last_checked_et": "2026-07-05 (data as of last close: Thu 2026-07-02)",
+  "indicators": {
+    "t2108": {"status": "Watching", "value": "58%"},
+    "vix": {"status": "Watching", "value": "16.15"},
+    "selling_climax": {"status": "Watching", "value": "no spike"},
+    "spx_drawdown": {"status": "Watching", "value": "+7.2% above 1/27 high (new highs, no drawdown)"},
+    "ma200": {"status": "Watching", "value": "above MA200"},
+    "rsi_divergence": {"status": "Watching", "value": "RSI ~56-60, no divergence setup"}
+  }
+}
