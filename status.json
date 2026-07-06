@@ -1,0 +1,37 @@
+{
+  "last_updated_et": "2026-07-06T12:45:00-04:00",
+  "indicators": {
+    "t2108_breadth": {
+      "status": "watching",
+      "note": "Real-time T2108 not directly obtainable; SPX near ATH implies healthy breadth, far from <20%"
+    },
+    "vix": {
+      "status": "watching",
+      "value": 15.88,
+      "note": "Far below 30 trigger"
+    },
+    "selling_climax_volume": {
+      "status": "watching",
+      "note": "No abnormal volume/wick observed; narrow range day"
+    },
+    "spx_drawdown": {
+      "status": "watching",
+      "spx_price": 7514.15,
+      "spx_ath": 7620.90,
+      "drawdown_from_ath_pct": 1.4,
+      "note": "SPX has already exceeded the 2026/1/27 high of 6978; new ATH set 2026/6/2 at 7620.90"
+    },
+    "ma200": {
+      "status": "watching",
+      "spx_price": 7514.15,
+      "ma200": 7469.76,
+      "note": "Price above MA200 (~7470, updated from stale ~6806 reference); no breach"
+    },
+    "rsi_bullish_divergence": {
+      "status": "watching",
+      "rsi14": 58,
+      "note": "Neutral/bullish RSI ~56-60; no new lows so divergence not applicable"
+    }
+  },
+  "total_triggered": 0
+}
