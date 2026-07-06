@@ -1,0 +1,12 @@
+{
+  "timestamp_et": "2026-07-06T16:00:00-04:00",
+  "indicators": {
+    "t2108_market_breadth": { "status": "watching", "value": "~54%" },
+    "vix_fear_index": { "status": "watching", "value": "16.38" },
+    "selling_climax_volume": { "status": "watching", "value": "no spike detected" },
+    "spx_drawdown": { "status": "watching", "value": "0% (at/near highs)" },
+    "ma200_recovery": { "status": "watching", "value": "above MA200 (~7469.76)" },
+    "rsi_bullish_divergence": { "status": "watching", "value": "RSI 59.8, no divergence" }
+  },
+  "triggered_count": 0
+}
