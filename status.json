@@ -1,0 +1,36 @@
+{
+  "last_updated_et": "2026-07-06 16:15 ET",
+  "indicators": {
+    "t2108_market_breadth": {
+      "value": "54.0%",
+      "trigger": "below 20%",
+      "status": "WATCHING"
+    },
+    "vix_fear_index": {
+      "value": "15.81",
+      "trigger": "above 30",
+      "status": "WATCHING"
+    },
+    "selling_climax_volume": {
+      "value": "normal volume, no long lower wick",
+      "trigger": "volume spike + long lower wick",
+      "status": "WATCHING"
+    },
+    "spx_drawdown": {
+      "value": "+7.2% vs 2026/1/27 ref high (6978); -1.5% vs true ATH (~7599.96, 2026/6/2)",
+      "trigger": "10%-15% correction from high",
+      "status": "WATCHING"
+    },
+    "ma200": {
+      "value": "SPX 7483.24 vs MA200 ~7469.76 (above, ~0.2% margin)",
+      "trigger": "recovery within 5-15 days of breach",
+      "status": "WATCHING"
+    },
+    "rsi_bullish_divergence": {
+      "value": "RSI 59.8, SPX near record highs (no new low to diverge from)",
+      "trigger": "price makes new low, RSI rises",
+      "status": "WATCHING"
+    }
+  },
+  "total_triggered": 0
+}
