@@ -1,0 +1,11 @@
+{
+  "last_updated_et": "2026-07-06 10:00 ET",
+  "indicators": {
+    "t2108": { "status": "watching", "value_note": "not directly retrievable; market context implies healthy breadth" },
+    "vix": { "status": "watching", "value": 16.1 },
+    "selling_climax": { "status": "watching", "value_note": "tight range, no volume spike" },
+    "spx_drawdown": { "status": "watching", "value_pct": 1.6, "reference_high": 7599.96, "reference_high_date": "2026-05-31" },
+    "ma200": { "status": "watching", "spx": 7483.24, "ma200_approx": 7469.76, "breach_days": 0 },
+    "rsi_divergence": { "status": "watching", "rsi": 59.8 }
+  }
+}
