@@ -1,0 +1,21 @@
+{
+  "last_checked_et": "2026-07-06T12:32:00-04:00",
+  "spx_close": 7483.24,
+  "spx_200dma_approx": 7469.76,
+  "spx_50dma_approx": 7413.44,
+  "spx_52wk_range": [6201.00, 7620.90],
+  "reference_high_2026_01_27": 6978,
+  "reference_ma200_original": 6806,
+  "vix": 15.81,
+  "spx_rsi14": 57.9,
+  "indicators": {
+    "t2108_breadth": { "status": "watching", "triggered": false },
+    "vix_fear": { "status": "watching", "triggered": false },
+    "selling_climax": { "status": "watching", "triggered": false },
+    "spx_drawdown": { "status": "watching", "triggered": false },
+    "ma200": { "status": "watching", "triggered": false },
+    "rsi_divergence": { "status": "watching", "triggered": false }
+  },
+  "total_triggered": 0,
+  "note": "First run. Market has rallied to new all-time highs (52wk range 6201-7620.90) well above the 2026-01-27 reference high (6978) and reference MA200 (6806) used to set up this routine's trigger levels. No correction/entry scenario is currently active."
+}
