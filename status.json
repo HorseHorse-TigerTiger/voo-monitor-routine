@@ -1,0 +1,12 @@
+{
+  "last_updated_et": "2026-07-07T12:00:00-04:00",
+  "indicators": {
+    "t2108": {"status": "watching", "value": "52.46%"},
+    "vix": {"status": "watching", "value": "15.88"},
+    "selling_climax": {"status": "watching", "value": "normal volume, no long lower wick"},
+    "spx_drawdown": {"status": "watching", "value": "0% (new highs above 6978 reference)"},
+    "ma200": {"status": "watching", "value": "SPX 7537.43 vs MA200 ~6942.91, above"},
+    "rsi_divergence": {"status": "watching", "value": "RSI ~59.8, neutral, no divergence"}
+  },
+  "triggered_count": 0
+}
