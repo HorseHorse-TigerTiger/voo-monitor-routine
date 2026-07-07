@@ -1,0 +1,11 @@
+{
+  "last_check_et": "2026-07-07T13:06:00-04:00",
+  "indicators": {
+    "t2108_breadth": { "status": "watching", "value": "not below 20% (exact reading unavailable; market at new highs implies elevated breadth)" },
+    "vix": { "status": "watching", "value": 15.57 },
+    "selling_climax": { "status": "watching", "value": "normal volume, no long lower wick; SPX +0.72% on 7/6" },
+    "spx_drawdown": { "status": "watching", "value": "+8.0% above 1/27/26 high (new highs, no drawdown)" },
+    "ma200": { "status": "watching", "value": "SPX ~7537 vs MA200 ~6806, well above, no breach" },
+    "rsi_divergence": { "status": "watching", "value": 59.84 }
+  }
+}
