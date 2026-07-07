@@ -1,0 +1,11 @@
+{
+  "last_updated_et": "2026-07-07 15:40 ET",
+  "indicators": {
+    "t2108": { "status": "Watching", "value": "Not directly retrievable (breadth data unavailable); market near all-time highs implies healthy breadth, well above 20% trigger" },
+    "vix": { "status": "Watching", "value": "15.57" },
+    "selling_climax": { "status": "Watching", "value": "SPY volume ~17.08M vs ~56.5M avg (below average, no spike)" },
+    "spx_drawdown": { "status": "Watching", "value": "SPX ~7530, +7.9% above the 2026/1/27 reference high of 6978; ~1.9% below true ATH of 7621 (2026/6/2)" },
+    "ma200": { "status": "Watching", "value": "SPX ~7530 vs MA200 ~7469.76 (above, no breach)" },
+    "rsi_divergence": { "status": "Watching", "value": "SPX 14-day RSI ~56-60, neutral; no new price low so no divergence setup" }
+  }
+}
