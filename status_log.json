@@ -1,0 +1,11 @@
+{
+  "last_updated_et": "2026-07-07 12:06 EDT",
+  "indicators": {
+    "t2108_breadth": { "status": "Watching", "value": "data unavailable" },
+    "vix": { "status": "Watching", "value": 15.7 },
+    "selling_climax": { "status": "Watching", "value": "no spike detected" },
+    "spx_drawdown": { "status": "Watching", "value": 8.0 },
+    "ma200": { "status": "Watching", "value": "above, not breached" },
+    "rsi_divergence": { "status": "Watching", "value": 57.9 }
+  }
+}
