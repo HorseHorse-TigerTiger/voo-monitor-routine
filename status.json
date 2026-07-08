@@ -1,0 +1,12 @@
+{
+  "last_checked_et": "2026-07-08 12:06 EDT",
+  "indicators": {
+    "t2108_breadth": "watching",
+    "vix_fear": "watching",
+    "selling_climax_volume": "watching",
+    "spx_drawdown": "watching",
+    "ma200": "watching",
+    "rsi_divergence": "watching"
+  },
+  "notes": "First recorded run. SPX has rallied well above the 2026/1/27 reference high of 6978 (new ATHs above 7600 set in June 2026); current price ~7503. All 6 entry indicators inactive; market in uptrend, not in correction."
+}
