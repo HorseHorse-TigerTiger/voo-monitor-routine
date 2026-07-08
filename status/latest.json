@@ -1,0 +1,12 @@
+{
+  "report_time_et": "2026-07-08T15:08:00-04:00",
+  "indicators": {
+    "t2108": { "status": "watching", "note": "no real-time public value found; market ~1.4% off ATH implies breadth not extreme" },
+    "vix": { "status": "watching", "value": 16.13 },
+    "selling_climax": { "status": "watching", "note": "SPY volume 29.04M vs 56.21M avg (below average), no climax pattern" },
+    "spx_drawdown": { "status": "watching", "spx_close": 7503.85, "drawdown_from_actual_ath_pct": -1.39, "actual_ath": 7609.78, "actual_ath_date": "2026-06-02" },
+    "ma200": { "status": "watching", "spx_close": 7503.85, "ma200_sma": 6894.53, "pct_above": 8.84 },
+    "rsi_divergence": { "status": "watching", "rsi14": 42.34 }
+  },
+  "triggered_count": 0
+}
