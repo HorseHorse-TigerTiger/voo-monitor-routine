@@ -1,0 +1,12 @@
+{
+  "as_of_et": "2026-07-09T11:00:00-04:00",
+  "indicators": {
+    "t2108_breadth": {"status": "watching", "value": "not directly retrievable via search; market at/near ATH implies healthy breadth, well above 20%"},
+    "vix": {"status": "watching", "value": 16.79},
+    "selling_climax": {"status": "watching", "value": "no abnormal volume/lower-wick signal observed"},
+    "spx_drawdown": {"status": "watching", "value": "SPX ~7462 vs 2026-01-27 reference high 6978 (price is ABOVE that level, new ATH set at 7609.78 on 2026-06-02); drawdown from true ATH ~-1.9%"},
+    "ma200": {"status": "watching", "value": "SPX ~7462 vs MA200 ~6900-6943 (well above, no breach)"},
+    "rsi_divergence": {"status": "watching", "value": "SPX 14D RSI ~42.3, neutral, no new price low so no divergence setup"}
+  },
+  "triggered_count": 0
+}
