@@ -1,0 +1,38 @@
+{
+  "last_run_et": "2026-07-09",
+  "data_as_of": "2026-07-08/09",
+  "indicators": {
+    "t2108_breadth": {
+      "value": "AT50=59.4%, AT200=59.1% (T2108 exact not available; MMFI proxy used)",
+      "status": "watching",
+      "triggered": false
+    },
+    "vix": {
+      "value": 16.8,
+      "status": "watching",
+      "triggered": false
+    },
+    "selling_climax_volume": {
+      "value": "SPY vol ~29.04M vs ~56.21M avg (below average)",
+      "status": "watching",
+      "triggered": false
+    },
+    "spx_drawdown": {
+      "value": "SPX ~7482.71 vs stale 2026-01-27 high of 6978 (SPX now +7.2% above that level; true ATH is higher, 23 new highs made in 2026)",
+      "status": "watching",
+      "triggered": false
+    },
+    "ma200": {
+      "value": "MA200 ~7473.38 (updated from stale ~6806 reference); SPX ~7482, at/slightly above MA200",
+      "status": "watching",
+      "triggered": false
+    },
+    "rsi_divergence": {
+      "value": "14D RSI conflicting: 42.3 (Investing.com) vs 55.35 (WallStreetNumbers); no new price low made, so divergence setup N/A",
+      "status": "watching",
+      "triggered": false
+    }
+  },
+  "total_triggered": 0,
+  "notes": "Reference points supplied in original task (SPX high 6978, MA200 ~6806) are stale as of 2026-07-09 -- SPX has rallied to ~7482 with 23 new ATHs in 2026 and MA200 has risen to ~7473. Recommend updating reference points in future runs."
+}
