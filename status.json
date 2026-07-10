@@ -1,0 +1,12 @@
+{
+  "last_check_et": "2026-07-10 14:05 EDT",
+  "indicators": {
+    "t2108": {"status": "watching", "note": "Exact value unavailable; market at ATHs implies elevated breadth, not oversold"},
+    "vix": {"status": "watching", "value": "~15.4-16.9"},
+    "selling_climax": {"status": "watching", "note": "No climax signal; market up on the day"},
+    "spx_drawdown": {"status": "watching", "value": "New ATH, no drawdown (SPX ~7543-7577 vs Jan 27 high 6978)"},
+    "ma200": {"status": "watching", "note": "SPX well above MA200 (~6894-6943), no breach"},
+    "rsi_divergence": {"status": "watching", "value": "~53-60, neutral, no divergence setup"}
+  },
+  "triggered_count": 0
+}
