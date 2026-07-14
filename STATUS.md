@@ -1,6 +1,6 @@
 # VOO Entry Indicators — Latest Snapshot
 
-_Last updated: 2026-07-13 16:06 ET_
+_Last updated: 2026-07-14 11:00 ET_
 
 | # | Indicator | Status |
 |---|---|---|
@@ -9,8 +9,8 @@ _Last updated: 2026-07-13 16:06 ET_
 | 3 | Selling Climax Volume | ⏳ Watching (no climax) |
 | 4 | SPX Drawdown | ⏳ Watching (~1.2% off ATH) |
 | 5 | MA200 | ⏳ Watching (above MA200) |
-| 6 | RSI Bullish Divergence | ⏳ Watching (RSI ~60, no divergence) |
+| 6 | RSI Bullish Divergence | ⏳ Watching (RSI ~66, no divergence) |
 
 Total triggered: 0/6
 
-Notes: SPX ~7,517–7,575 (July 10–13, 2026), near all-time high (7,609.78 set 2026-06-02). The task's reference high of 6,978 (2026-01-27) has since been surpassed — SPX is not in a drawdown from that level. This is the baseline run; no prior snapshot existed for comparison.
+Notes: SPX ~7,515–7,532 (July 14, 2026, intraday), near all-time high (7,609.78 set 2026-06-02). The task's reference high of 6,978 (2026-01-27) has since been surpassed — SPX is not in a drawdown from that level. No status changes since 2026-07-13.
