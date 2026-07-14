@@ -1,0 +1,11 @@
+{
+  "timestamp_et": "2026-07-14T15:00:00-04:00",
+  "indicators": {
+    "t2108": { "status": "Watching", "value": "54.0%" },
+    "vix": { "status": "Watching", "value": "17.1" },
+    "selling_climax": { "status": "Watching", "value": "no spike" },
+    "spx_drawdown": { "status": "Watching", "value": "0% (new highs since 6978)" },
+    "ma200": { "status": "Watching", "value": "SPX 7515 vs MA200 7472.59, above" },
+    "rsi_divergence": { "status": "Watching", "value": "RSI ~54-60, no new price low" }
+  }
+}
