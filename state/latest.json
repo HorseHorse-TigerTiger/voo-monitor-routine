@@ -1,0 +1,15 @@
+{
+  "last_check_et": "2026-07-15T09:35:00-04:00",
+  "spx_close": 7543.59,
+  "spx_intraday_high_recent": 7574,
+  "indicators": {
+    "t2108_breadth":        { "status": "watching", "value": "healthy (>20, exact n/a)" },
+    "vix":                  { "status": "watching", "value": 16.50 },
+    "selling_climax":       { "status": "watching", "value": "none" },
+    "spx_drawdown_pct":     { "status": "watching", "value": 0.0 },
+    "ma200":                { "status": "watching", "value": "above (SPX 7543 / MA200 ~7473)" },
+    "rsi_divergence":       { "status": "watching", "value": "rsi ~54-66, no divergence" }
+  },
+  "total_triggered": 0,
+  "reference_anchors_note": "Task refs (Jan 27 high 6978, MA200 6806) are stale; market rallied well above."
+}
