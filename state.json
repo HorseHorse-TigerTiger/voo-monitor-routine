@@ -1,0 +1,13 @@
+{
+  "last_check_et": "2026-07-15",
+  "spx_reference_high": 6978,
+  "indicators": {
+    "t2108": { "value": null, "status": "watching" },
+    "vix": { "value": 16.5, "status": "watching" },
+    "selling_climax": { "spy_volume_m": 35, "avg_volume_m": 46, "status": "watching" },
+    "spx_drawdown": { "spx": 7574, "drawdown_pct_from_6978": 0, "status": "watching" },
+    "ma200": { "spx": 7574, "ma200": 6806, "above": true, "status": "watching" },
+    "rsi_divergence": { "rsi14": 60, "status": "watching" }
+  },
+  "total_triggered": 0
+}
