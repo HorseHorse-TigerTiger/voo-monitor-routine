@@ -1,0 +1,19 @@
+{
+  "last_check_et": "2026-07-16",
+  "spx": 7560.95,
+  "vix": 16.26,
+  "rsi14": 60,
+  "ma200_ref": 6806,
+  "spx_above_ma200": true,
+  "jan27_high": 6978,
+  "drawdown_pct": 0.0,
+  "statuses": {
+    "t2108": "Watching",
+    "vix": "Watching",
+    "selling_climax": "Watching",
+    "spx_drawdown": "Watching",
+    "ma200": "Watching",
+    "rsi_divergence": "Watching"
+  },
+  "triggered_count": 0
+}
