@@ -1,0 +1,19 @@
+{
+  "last_check": "2026-07-17T14:00:00-04:00",
+  "statuses": {
+    "T2108": "Watching",
+    "VIX": "Watching",
+    "SellingClimax": "Watching",
+    "SPXDrawdown": "Watching",
+    "MA200": "Watching",
+    "RSIDivergence": "Watching"
+  },
+  "values": {
+    "VIX": 17.76,
+    "SPX": 7494,
+    "RSI14": 54.8,
+    "MA200": 7473,
+    "T2108": null
+  },
+  "total_triggered": 0
+}
