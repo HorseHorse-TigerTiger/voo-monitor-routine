@@ -142,9 +142,7 @@
   .trend-head .t span { font-family: var(--mono); font-size: 11px; color: var(--faint); font-weight: 500; margin-left: 6px; letter-spacing: .04em; }
   .trend-head .px { font-family: var(--mono); font-variant-numeric: tabular-nums; }
   .trend-head .px .last { font-size: 22px; font-weight: 600; }
-  .trend-head .px .chg { font-size: 13px; margin-left: 8px; color: #d24b52; }
-  :root[data-theme="dark"] .trend-head .px .chg { color: #f0797f; }
-  @media (prefers-color-scheme: dark) { .trend-head .px .chg { color: #f0797f; } }
+  .trend-head .px .chg { font-size: 13px; margin-left: 8px; }
   .spark { width: 100%; height: 96px; display: block; }
   .spark-scale { display: flex; justify-content: space-between; margin-top: 4px; font-family: var(--mono); font-size: 10px; color: var(--faint); }
 
@@ -167,27 +165,27 @@
       <p class="eyebrow">VOO · Buy-the-dip entry signals</p>
       <h1>Entry Indicator Monitor</h1>
     </div>
-    <div class="stamp">As of<br><b>2026-07-20 · 21:10 ET</b><br>SPX ~7,504.7</div>
+    <div class="stamp">As of<br><b>2026-07-20 · 12:14 ET</b> (midday, intraday)<br>SPX ~7,480</div>
   </div>
 
   <div class="hero">
     <div>
-      <div class="score"><span class="n">0</span><span class="d">/ 6</span></div>
+      <div class="score"><span class="n" style="color:var(--watch)">0</span><span class="d">/ 6</span></div>
       <div class="score-label">Signals armed</div>
     </div>
     <div class="verdict">
       <span class="badge"><span class="dot"></span>All clear · watching</span>
-      <p>Markets bounced <b>+0.63%</b> Monday as chip stocks rebounded from Friday's selloff, narrowing the pullback from the Jun 2 ATH (7,609.78) to ~1.4%. VIX eased to 17.68 and SPX is back above its 200-day MA. No buy-the-dip signal — breadth stays strong and there's no capitulation volume.</p>
+      <p>SPX is little changed at midday (~<b>+0.3%</b> intraday) as markets weigh a ninth night of US-Iran airstrikes against upcoming Big Tech earnings. VIX sits elevated near <b>18.8</b> on geopolitical risk but stays far below panic. No buy-the-dip signal is close — breadth and the 200-DMA cushion remain intact and there's no capitulation volume this session.</p>
     </div>
   </div>
 
   <div class="trend">
     <div class="trend-head">
-      <div class="t">S&amp;P 500 · 18-session trend <span>daily closes</span></div>
-      <div class="px"><span class="last">~7,504.7</span><span class="chg" style="color:var(--trig)">+0.63% (Jul 20)</span></div>
+      <div class="t">S&amp;P 500 · 20-session trend <span>daily closes, today intraday</span></div>
+      <div class="px"><span class="last">~7,480</span><span class="chg" style="color:var(--watch)">+0.3% intraday (Jul 20)</span></div>
     </div>
     <svg class="spark" id="spark" viewBox="0 0 620 96" preserveAspectRatio="none" aria-label="SPX 20-session sparkline"></svg>
-    <div class="spark-scale"><span id="sk-start">Jun 22</span><span>ATH 7,609.78 (Jun 2)</span><span id="sk-end">Jul 20</span></div>
+    <div class="spark-scale"><span id="sk-start">Jun 23</span><span>ATH 7,609.78 (Jun 2)</span><span id="sk-end">Jul 20</span></div>
   </div>
 
   <div class="grid">
@@ -198,16 +196,16 @@
         <div><span class="idx">01</span><p class="name">T2108 Market Breadth</p></div>
         <span class="pill watch">Watching</span>
       </div>
-      <div class="value"><span class="big">~70</span><span class="unit">% est. · Jul 20</span></div>
+      <div class="value"><span class="big">~42</span><span class="unit">% est. · Jul 20</span></div>
       <div class="meter">
         <div class="track">
-          <div class="fill" style="width:70%; background:var(--watch)"></div>
+          <div class="fill" style="width:42%; background:var(--watch)"></div>
           <div class="thresh" style="left:20%" data-lbl="trigger 20%"></div>
-          <div class="now" style="left:70%; background:var(--watch)"></div>
+          <div class="now" style="left:42%; background:var(--watch)"></div>
         </div>
         <div class="scale"><span>0%</span><span>50%</span><span>100%</span></div>
       </div>
-      <p class="note">Breadth stayed elevated as chip stocks rebounded — most stocks remain above their 200-DMA. <span class="trg">Fires below 20%.</span></p>
+      <p class="note">Live T2108 unavailable this run — proxied from % above 50-day (~37%) and % above 200-day (~66%) breadth gauges. Cooled from the ~70% est. cited in the prior report after last week's chip-stock selloff, but nowhere near capitulation. <span class="trg">Fires below 20%.</span></p>
     </div>
 
     <!-- 2 VIX -->
@@ -216,16 +214,16 @@
         <div><span class="idx">02</span><p class="name">VIX Fear Index</p></div>
         <span class="pill watch">Watching</span>
       </div>
-      <div class="value"><span class="big">17.68</span><span class="unit">Jul 20</span></div>
+      <div class="value"><span class="big">18.8</span><span class="unit">intraday, Jul 20</span></div>
       <div class="meter">
         <div class="track">
-          <div class="fill" style="width:44.2%; background:var(--watch)"></div>
+          <div class="fill" style="width:47%; background:var(--watch)"></div>
           <div class="thresh" style="left:75%" data-lbl="trigger 30"></div>
-          <div class="now" style="left:44.2%; background:var(--watch)"></div>
+          <div class="now" style="left:47%; background:var(--watch)"></div>
         </div>
         <div class="scale"><span>0</span><span>20</span><span>40</span></div>
       </div>
-      <p class="note">Re-confirmed at Monday's close, cross-checked in the 17–18.4 range. Calm, well below panic. <span class="trg">Fires above 30.</span></p>
+      <p class="note">Cross-checked in the 18.7–18.9 range, up from last week on Iran-strike headlines and chip-sector volatility. Elevated but calm — well below panic. <span class="trg">Fires above 30.</span></p>
     </div>
 
     <!-- 3 Selling climax -->
@@ -240,7 +238,7 @@
         <span class="arrow">·</span>
         <span class="state">No long lower wick</span>
       </div>
-      <p class="note">Monday was an up day (+0.63%) on above-average SPY volume — the opposite of a capitulation signature. <span class="trg">Fires on volume surge + long lower wick.</span></p>
+      <p class="note">Today's session is modestly higher (~+0.3%) with no unusual volume or wick. Friday's −1.0% decline was orderly, not a capitulation print. <span class="trg">Fires on volume surge + long lower wick.</span></p>
     </div>
 
     <!-- 4 SPX drawdown -->
@@ -249,34 +247,34 @@
         <div><span class="idx">04</span><p class="name">SPX Drawdown</p></div>
         <span class="pill watch">Watching</span>
       </div>
-      <div class="value"><span class="big">−1.4</span><span class="unit">% from ATH 7,609.78</span></div>
+      <div class="value"><span class="big">−1.7</span><span class="unit">% from ATH 7,609.78</span></div>
       <div class="meter">
         <div class="track">
-          <div class="fill" style="width:4.7%; background:var(--watch)"></div>
+          <div class="fill" style="width:5.7%; background:var(--watch)"></div>
           <div class="thresh" style="left:41.7%" data-lbl="entry 10–15%"></div>
-          <div class="now" style="left:4.7%; background:var(--watch)"></div>
+          <div class="now" style="left:5.7%; background:var(--watch)"></div>
         </div>
         <div class="scale"><span>0%</span><span>−15%</span><span>−30%</span></div>
       </div>
-      <p class="note">True ATH re-confirmed at 7,609.78 (Jun 2, first-ever close above 7,600) — the old Jan-27 ref (6978) is stale. No higher close since. <span class="trg">Fires on a 10–15% correction.</span></p>
+      <p class="note">True ATH remains 7,609.78 (Jun 2 close, first-ever close above 7,600) — the stale Jan-27 reference (6,978) has long been superseded. No higher close since. <span class="trg">Fires on a 10–15% correction.</span></p>
     </div>
 
     <!-- 5 MA200 -->
     <div class="card">
       <div class="card-top">
-        <div><span class="idx">05</span><p class="name">MA200 Breach & Recovery</p></div>
+        <div><span class="idx">05</span><p class="name">MA200 Breach &amp; Recovery</p></div>
         <span class="pill watch">Watching</span>
       </div>
-      <div class="value"><span class="big">+0.4</span><span class="unit">% · above MA200 ~7,478 est.</span></div>
+      <div class="value"><span class="big">+7.6</span><span class="unit">% · above MA200 ~6,950 est.</span></div>
       <div class="meter">
         <div class="track">
-          <div class="fill" style="width:57%; background:var(--watch)"></div>
-          <div class="thresh" style="left:50%" data-lbl="MA200 ~7478"></div>
-          <div class="now" style="left:57%; background:var(--watch)"></div>
+          <div class="fill" style="width:75%; background:var(--watch)"></div>
+          <div class="thresh" style="left:50%" data-lbl="MA200 ~6,950"></div>
+          <div class="now" style="left:75%; background:var(--watch)"></div>
         </div>
         <div class="scale"><span>below</span><span>MA200</span><span>above</span></div>
       </div>
-      <p class="note">Holding above the 200-DMA since Monday's rally. No active breach/recovery clock — last confirmed breach recovered Apr 8. <span class="trg">Fires on recovery 5–15 days after a breach.</span></p>
+      <p class="note">Cross-source 200-DMA estimates cluster ~6,890–7,000 (a materially lower and more credible read than the prior report's ~7,478 figure). SPX sits comfortably above it — no active breach/recovery clock. <span class="trg">Fires on recovery 5–15 days after a breach.</span></p>
     </div>
 
     <!-- 6 RSI divergence -->
@@ -285,32 +283,33 @@
         <div><span class="idx">06</span><p class="name">RSI Bullish Divergence</p></div>
         <span class="pill watch">Watching</span>
       </div>
-      <div class="value"><span class="big">~38</span><span class="unit">est. RSI-14 · sources conflict</span></div>
+      <div class="value"><span class="big">~42</span><span class="unit">est. RSI-14 · sources conflict</span></div>
       <div class="meter">
         <div class="track">
-          <div class="fill" style="width:38%; background:var(--watch)"></div>
+          <div class="fill" style="width:42%; background:var(--watch)"></div>
           <div class="thresh" style="left:30%" data-lbl="oversold 30"></div>
-          <div class="now" style="left:38%; background:var(--watch)"></div>
+          <div class="now" style="left:42%; background:var(--watch)"></div>
         </div>
         <div class="scale"><span>0</span><span>50</span><span>100</span></div>
       </div>
-      <p class="note">Data-quality flag: providers disagree this run (32.98 vs prior confirmed 48.34). Regardless, price has NOT made a new low — no divergence setup. <span class="trg">Fires when price makes new low but RSI rises.</span></p>
+      <p class="note">Data-quality flag persists: providers disagree (32.98 vs a prior confirmed 48.34). Regardless, price has NOT made a new low vs recent swing lows — no divergence setup is active. <span class="trg">Fires when price makes a new low but RSI rises.</span></p>
     </div>
 
   </div>
 
   <div class="foot">
     <h3>Changes since last check</h3>
-    <p class="chg">No status changes since the last check (same-day 16:45 ET report). All 6 indicators remain ⏳ Watching. No new trading session has closed between checks, so underlying values are unchanged — this run re-confirms the Jul 20 close data across sources. Data-quality flag persists (not a status change): RSI-14 readings still diverge between sources (32.98 vs the previously-confirmed 48.34). No card crossed into Alert or Triggered.</p>
-    <p>Data: SPX ~7,504.7 (Jul 20 close, +0.63%) · true ATH 7,609.78 (Jun 2, re-confirmed) · VIX 17.68 (Jul 20 close) · breadth ~70% est. (Jul 20) · MA200 ~7,478 est. · RSI-14 ~38 est. (sources conflict: 32.98 vs 48.34). Post-close confirmation check, no new session.</p>
+    <p class="chg">No status changes. All 6 indicators remain ⏳ Watching, same as the prior report. No indicator crossed into Alert or Triggered.</p>
+    <p><b>Data-integrity note:</b> the prior report (committed 15:13 UTC) described itself as a "post-close, 21:10 ET" check, but its own commit timestamp precedes today's actual market close — that label was a run-time error, not real post-close data. This run re-sources everything live at 12:14 ET (midday, market open) and corrects two carried-forward estimates that no longer held up under cross-checking: breadth (~70%→~42% est.) and the 200-DMA (~7,478→~6,950 est., using multiple independent sources). Neither correction changes any trigger status.</p>
+    <p>Data: SPX ~7,480 (intraday, +0.3%, Jul 20) · Friday close 7,457.69 (Jul 17, −1.0%) · true ATH 7,609.78 (Jun 2) · VIX ~18.8 intraday · breadth ~42% est. · MA200 ~6,950 est. (+7.6%) · RSI-14 ~42 est. (sources conflict: 32.98 vs 48.34).</p>
   </div>
 
   <p class="disclaim">Automated monitor — informational only, not investment advice. Values are best-effort from public market data and may lag intraday.</p>
 </div>
 
 <script>
-  // SPX ~20 recent session closes (approx), oldest → newest. Future runs: swap this array.
-  var SPX = [7473,7358,7354,7440,7499,7499,7499,7537,7504,7483,7544,7572,7544,7543,7572,7534,7458,7505];
+  // SPX ~20 recent session closes (approx; today's last point is intraday), oldest → newest. Future runs: swap this array.
+  var SPX = [7590,7570,7545,7510,7480,7449,7460,7480,7500,7515,7530,7544,7550,7545,7515,7544,7565,7534,7458,7480];
   (function(){
     var svg = document.getElementById('spark');
     if (!svg) return;
